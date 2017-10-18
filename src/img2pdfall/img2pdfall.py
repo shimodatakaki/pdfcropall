@@ -16,7 +16,7 @@ def convert_to_pdf_all():
     argvs = sys.argv
     density = DENSITY
     if len(argvs) == 2:
-        density = argvs[2]
+        density = argvs[1]
     # convert file to pdf for all extensions
     for filename in os.listdir('.'):
         f_name = filename[:-4]
