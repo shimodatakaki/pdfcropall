@@ -12,7 +12,7 @@ pdfcropall はカレントディレクトリ内の全pdfまたはPDFファイル
 
     pdfcropall
 
-##Requirement
+## Requirement
 
 	convert
 を用いるのでimagemagickが必要(
@@ -36,7 +36,7 @@ img2pdfall はカレントディレクトリ内の全jpg, png, epsまたはJPG, 
 
     img2pdfall
 
-##Options
+## Options
 
 pdfファイルへの変換densityは引数で指定することが可能(デフォルトで1200)
 
