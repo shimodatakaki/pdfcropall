@@ -12,14 +12,6 @@ pdfcropall はカレントディレクトリ内の全pdfまたはPDFファイル
 
     pdfcropall
 
-## Requirement
-
-	convert
-を用いるのでimagemagickが必要(
-[https://www.imagemagick.org/script/index.php
-](https://www.imagemagick.org/script/index.php)
-)
-
 ----------------------------------------
 
 # img2pdfall
@@ -42,5 +34,13 @@ pdfファイルへの変換densityは引数で指定することが可能(デフ
 
 	#if you want 600 density pdf file
 	img2pdfall 600 
+
+## Requirement
+
+	convert
+を用いるのでimagemagickが必要(
+[https://www.imagemagick.org/script/index.php
+](https://www.imagemagick.org/script/index.php)
+)
 
 ----------------------------------------
