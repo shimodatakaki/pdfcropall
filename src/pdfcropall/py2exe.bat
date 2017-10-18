@@ -1,0 +1,1 @@
+pyinstaller pdfcropall.py -F

@@ -14,16 +14,23 @@ pdfcropall はカレントディレクトリ内の全pdfまたはPDFファイル
 
 ----------------------------------------
 
-# jpeg2pdfall
+# img2pdfall
 
 ## Synopsis
 
-jpeg2pdfall はカレントディレクトリ内の全jpgまたはJPGファイルをpdfに変換します。
+img2pdfall はカレントディレクトリ内の全jpg, png, epsまたはJPG, PNG, EPSファイルをpdfに変換します。
 
 
 ## Usage
 1.jpeg2pdfall.exe と jpeg2pdf.exe のパスを通す。
 
-2.以下をpdfに変換したいjpgファイルが複数あるディレクトリで以下コマンドライン実行。
+2.以下をpdfに変換したいjpg, png, epsファイルが複数あるディレクトリで以下コマンドライン実行。
 
-    jpeg2pdfall
+    img2pdfall
+
+##Options
+
+pdfファイルへの変換densityは引数で指定することが可能(デフォルトで1200)
+
+	#if you want 600 density pdf file
+	img2pdfall 600 

@@ -1,0 +1,1 @@
+pyinstaller img2pdfall.py -F
